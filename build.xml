@@ -46,6 +46,7 @@
       <junit fork="no" haltonfailure="no" showoutput="yes" printsummary="true">
         <!--<test name="${test.dir}/*.java" todir="${test.data.dir}"/>-->
 		<classpath>
+		    <path refid="classpath.junittest"/> 
 		    <pathelement path="bin"/>
 			<path>
 		    <fileset dir="src/logica">

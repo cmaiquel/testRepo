@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="hormiga-6902" name="Test.TestListaEtiquetas" tests="4" time="0.0050" timestamp="2012-08-17T20:06:24">
+  <properties>
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.boot.library.path" value="D:\maiquel\.jenkins\tools\JDK\myJDK\jre\bin" />
+    <property name="java.vm.version" value="20.7-b02" />
+    <property name="ant.library.dir" value="D:\maiquel\.jenkins\tools\Ant\myAnt\lib" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.country" value="UY" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="D:\maiquel\.jenkins\workspace\Java Test Project" />
+    <property name="java.runtime.version" value="1.6.0_32-b05" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="basedir" value="D:\maiquel\.jenkins\workspace\Java Test Project" />
+    <property name="java.endorsed.dirs" value="D:\maiquel\.jenkins\tools\JDK\myJDK\jre\lib\endorsed" />
+    <property name="os.arch" value="amd64" />
+    <property name="ant.project.default-target" value="all" />
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\" />
+    <property name="ant.core.lib" value="D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant.jar" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="user.variant" value="" />
+    <property name="ant.file.type.Java Test Project" value="file" />
+    <property name="os.name" value="Windows 7" />
+    <property name="ant.home" value="D:\maiquel\.jenkins\tools\Ant\myAnt" />
+    <property name="ant.project.name" value="Java Test Project" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.library.path" value="D:\maiquel\.jenkins\tools\JDK\myJDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\maiquel\.jenkins\tools\JDK\myJDK/bin;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\12.0\DLLShared\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Git\bin;C:\Program Files\Java\jre6\bin;." />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.version" value="6.1" />
+    <property name="ant.file" value="D:\maiquel\.jenkins\workspace\Java Test Project\build.xml" />
+    <property name="user.home" value="D:\maiquel" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="user.name" value="user" />
+    <property name="java.class.path" value="D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-launcher.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-antlr.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-apache-bcel.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-apache-bsf.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-apache-log4j.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-apache-oro.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-apache-regexp.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-apache-resolver.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-apache-xalan2.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-commons-logging.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-commons-net.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-jai.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-javamail.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-jdepend.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-jmf.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-jsch.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-junit.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-junit4.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-launcher.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-netrexx.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-swing.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant-testutil.jar;D:\maiquel\.jenkins\tools\Ant\myAnt\lib\ant.jar;D:\maiquel\.jenkins\tools\JDK\myJDK\lib\tools.jar" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="java.home" value="D:\maiquel\.jenkins\tools\JDK\myJDK\jre" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher test" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="user.language" value="es" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="test.dir" value="D:\maiquel\.jenkins\workspace\Java Test Project\src\Test" />
+    <property name="java.version" value="1.6.0_32" />
+    <property name="java.ext.dirs" value="D:\maiquel\.jenkins\tools\JDK\myJDK\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="sun.boot.class.path" value="D:\maiquel\.jenkins\tools\JDK\myJDK\jre\lib\resources.jar;D:\maiquel\.jenkins\tools\JDK\myJDK\jre\lib\rt.jar;D:\maiquel\.jenkins\tools\JDK\myJDK\jre\lib\sunrsasign.jar;D:\maiquel\.jenkins\tools\JDK\myJDK\jre\lib\jsse.jar;D:\maiquel\.jenkins\tools\JDK\myJDK\jre\lib\jce.jar;D:\maiquel\.jenkins\tools\JDK\myJDK\jre\lib\charsets.jar;D:\maiquel\.jenkins\tools\JDK\myJDK\jre\lib\modules\jdk.boot.jar;D:\maiquel\.jenkins\tools\JDK\myJDK\jre\classes" />
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="test.data.dir" value="D:\maiquel\.jenkins\workspace\Java Test Project\test\data" />
+    <property name="file.separator" value="\" />
+    <property name="ant.file.Java Test Project" value="D:\maiquel\.jenkins\workspace\Java Test Project\build.xml" />
+    <property name="src.dir" value="D:\maiquel\.jenkins\workspace\Java Test Project\src\logica" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="test.htmlreports.dir" value="D:\maiquel\.jenkins\workspace\Java Test Project\test\htmlreports" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="ant.file.type" value="file" />
+    <property name="sun.desktop" value="windows" />
+    <property name="sun.cpu.isalist" value="amd64" />
+  </properties>
+  <testcase classname="Test.TestListaEtiquetas" name="testRemoverEtiqueta" time="0.0" />
+  <testcase classname="Test.TestListaEtiquetas" name="testListarEtiquetas" time="0.0" />
+  <testcase classname="Test.TestListaEtiquetas" name="testBuscar" time="0.0" />
+  <testcase classname="Test.TestListaEtiquetas" name="testAgregarEtiqueta" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
